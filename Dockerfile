@@ -1,6 +1,5 @@
 FROM arm64v8/ubuntu:20.04
-
-LABEL maintainer "https://github.com/blacktop"
+MAINTAINER fine <dlgmltjr0925@gmail.com>
 
 RUN apt-get update && apt-get install openjdk-11-jre wget gnupg -y 
 
